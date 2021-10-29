@@ -96,6 +96,10 @@ window.addEventListener("load", () => {
             cont.setAttribute("class", "partly-cloudy-night");
             loc.setAttribute("class", "location-night");
           }
+         if (icon == `rain`) {
+            cont.setAttribute("class", "rain");
+            loc.setAttribute("class", "location-night");
+          }
         });
     });
   } else {
