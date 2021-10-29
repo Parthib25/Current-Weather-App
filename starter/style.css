@@ -195,7 +195,7 @@ body {
 .location {
   align-items: flex-start;
   background-color: rgba(248, 248, 255, 0.63);
-  width: 660px;
+  width: 640px;
   height: 140px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -225,7 +225,7 @@ ol {
   color: black;
   align-items: flex-start;
   background-color: rgba(248, 248, 255, 0.63);
-  width: 660px;
+  width: 640px;
   height: 140px;
   margin-left: 20px;
   margin-bottom: 10px;
