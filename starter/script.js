@@ -73,11 +73,11 @@ window.addEventListener("load", () => {
           dew.innerHTML = `DewPoint:${dewPoint}`;
           hum.innerHTML = `Humidity:${humidity}`;
           uv.innerHTML = `UV-Index:${uvIndex}`;
-          pre.innerHTML = `Pressure:${pressure}`;
+          pre.innerHTML = `Pressure:${pressure}mb`;
           o.innerHTML = `Ozone-Level:${ozone}`;
           vis.innerHTML = `Visibility:${visibility}`;
-          windb.innerHTML = `WindBearing:${windBearing}`;
-          windg.innerHTML = `WindGust:${windGust}`;
+          windb.innerHTML = `WindBearing:${windBearing}<sup>0</sup>`;
+          windg.innerHTML = `WindGust:${windGust}km/h`;
           winds.innerHTML = `WindSpeed:${windSpeed}km/h`;
           at.innerHTML = `Apparent Temp:${(
             ((apparentTemperature - 32) * 5) /
