@@ -124,7 +124,7 @@ window.addEventListener("load", () => {
           const { continent, countryName, principalSubdivision, locality } =
             data1;
 
-          loc.innerHTML = `<h2>Station Address-info:</h2><ol><li class="list-items">Continent:${continent}</li><li class="list-items">Country:${countryName}</li><li class="list-items">PrincipalSubdivision(generally a state):${principalSubdivision}</li><li class="list-items">Locality:${locality}</li></ol>`;
+          loc.innerHTML = `<h2>Station Address-info:</h2><ol><li class="list-items">Continent:${continent}</li><li class="list-items">Country:${countryName}</li><li class="list-items">PrincipalSubdivision(generally a state):${principalSubdivision}</li><li class="list-items">District:${data1.localityInfo.administrative[2].name}</li><li class="list-items">Locality:${locality}</li></ol>`;
         });
     });
   }
