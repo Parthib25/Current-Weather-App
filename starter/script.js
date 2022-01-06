@@ -49,7 +49,7 @@ window.addEventListener("load", () => {
         })
         .then((data1) => {
           const {
-            apparentTemperature,
+           apparentTemperature,
             cloudCover,
             dewPoint,
             humidity,
