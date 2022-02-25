@@ -39,7 +39,7 @@ window.addEventListener("load", () => {
           method: "GET",
           headers: {
             "x-api-key":
-              "691753ff23f5c70bdb152f0a83e394247c31fc2b194ba27c73d918d89aeb3be8",
+              "4d9eadc3b743f50be6a155177e4fbc6a72e1639e0a25bf714775498874192032",
             "Content-type": "application/json",
           },
         }
